@@ -1,0 +1,91 @@
+############################################
+# Terraform Core
+############################################
+
+# Local .terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform lock file (OPTIONAL - see note below)
+# If working in team → KEEP this tracked
+# If solo experimentation → you may ignore
+# .terraform.lock.hcl
+
+
+############################################
+# Terraform CLI config files
+############################################
+
+.terraformrc
+terraform.rc
+
+
+############################################
+# Plan files
+############################################
+
+*.tfplan
+*.plan
+
+
+############################################
+# Sensitive variable files
+############################################
+
+*.tfvars
+*.tfvars.json
+
+# Exception (if you want to track example template)
+!terraform.tfvars.example
+
+
+############################################
+# Override files
+############################################
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
+############################################
+# OS / Editor junk
+############################################
+
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+
+############################################
+# VS Code
+############################################
+
+.vscode/
+
+############################################
+# Azure specific
+############################################
+
+.azure/
+
+############################################
+# Logs
+############################################
+
+*.log
+
+############################################
+# Python (if using terraform + python scripts)
+############################################
+
+__pycache__/
+*.pyc
+.env
+.venv/
